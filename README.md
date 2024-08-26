@@ -2,7 +2,7 @@
 w/ Zeming Wei, Yihao Zhang, and Meng Sun.
 
 ## Quick start
-1. Download `SST2, AGnews, mrpc, QNLI, RTE, WMT` datasets and move them into the folder `data`. You can directly copy the `data` folder from [BatchICL](https://github.com/Cardinalere/Batch-ICL).
+1. Download `SST2, AGnews, mrpc, QNLI, RTE, WMT` datasets and move them into the folder `./data`. You can directly copy the `data` folder from [BatchICL](https://github.com/Cardinalere/Batch-ICL).
 
 2. Edit the paths to your LLMs in `paths.py`.
 
