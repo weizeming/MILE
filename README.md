@@ -18,6 +18,3 @@ python eval_acc.py --model vicuna --task all --shots 20 --test-example 250
 python main.py --model vicuna --mutants 20 --test-example 250 --shots 20 --task SST2
 ```
 
-
-## Acknowledgement
-The data is copied from [BatchICL](https://github.com/Cardinalere/Batch-ICL).
