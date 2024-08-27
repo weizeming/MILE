@@ -20,4 +20,4 @@ python main.py --model vicuna --mutants 20 --test-example 250 --shots 20 --task 
 
 
 ## Acknowledgement
-The data and code for formating prompts are copied from [BatchICL](https://github.com/Cardinalere/Batch-ICL).
+The data is copied from [BatchICL](https://github.com/Cardinalere/Batch-ICL).
