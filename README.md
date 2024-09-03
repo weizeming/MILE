@@ -1,7 +1,7 @@
 # MILE: A Mutation Testing Framework of In-Context Learning Systems
 w/ Zeming Wei, Yihao Zhang, and Meng Sun.
 
-The paper is under review.
+The paper is under review. Unpublished version: https://github.com/weizeming/MILE/blob/main/MILE.pdf
 
 ## Quick start
 1. Download `SST2, AGnews, mrpc, QNLI, RTE, WMT` datasets and move them into the folder `./data`. You can directly copy the `data` folder from [BatchICL](https://github.com/Cardinalere/Batch-ICL).
