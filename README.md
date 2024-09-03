@@ -13,8 +13,13 @@ The paper is under review.
 python eval_acc.py --model vicuna --task all --shots 20 --test-example 250
 ```
 
-4. Calculate instance-wise mutation scores with `main.py`. Example:
+4. Create folder `./results` and run the mutation testing with `main.py`. The log will be saved in `./results`. Example:
 ```
 python main.py --model vicuna --mutants 20 --test-example 250 --shots 20 --task SST2
 ```
 
+5. Calculate Standard and Group-wise Mutation Scores with `analysis.py` and `mutator_analysis.py` (complete log for all models and tasks required). Example:
+```
+python analysis.py --num 50
+python mutator_analysis.py
+```
