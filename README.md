@@ -1,9 +1,9 @@
 # MILE: A Mutation Testing Framework of In-Context Learning Systems
-w/ Zeming Wei, Yihao Zhang, and Meng Sun.
+[Zeming Wei](https://weizeming.github.io), Yihao Zhang, and Meng Sun.
 
-The paper is under review. Unpublished version: https://github.com/weizeming/MILE/blob/main/MILE.pdf
+The paper is under review. Preprint: https://arxiv.org/abs/2409.04831
 
-## Quick start
+## Usage
 1. Download `SST2, AGnews, mrpc, QNLI, RTE, WMT` datasets and move them into the folder `./data`. You can directly copy the `data` folder from [BatchICL](https://github.com/Cardinalere/Batch-ICL).
 
 2. Edit the paths to your LLMs in `paths.py`.
@@ -22,4 +22,13 @@ python main.py --model vicuna --mutants 20 --test-example 250 --shots 20 --task 
 ```
 python analysis.py --num 50
 python mutator_analysis.py
+```
+## Citation
+```
+@article{wei2023mile,
+  title={MILE: A Mutation Testing Framework of In-Context Learning Systems},
+  author={Wei, Zeming and Zhang, Yihao and Sun, Meng},
+  journal={arXiv preprint arXiv:2409.04831},
+  year={2024}
+}
 ```
