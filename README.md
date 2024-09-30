@@ -1,7 +1,7 @@
-# MILE: A Mutation Testing Framework of In-Context Learning Systems
+# MILE: A Mutation Testing Framework of In-Context Learning Systems (SETTA 2024)
 [Zeming Wei](https://weizeming.github.io), Yihao Zhang, and Meng Sun.
 
-The paper is under review. Preprint: https://arxiv.org/abs/2409.04831
+Accepted by SETTA 2024. Preprint: https://arxiv.org/abs/2409.04831
 
 ## Usage
 1. Download `SST2, AGnews, mrpc, QNLI, RTE, WMT` datasets and move them into the folder `./data`. You can directly copy the `data` folder from [BatchICL](https://github.com/Cardinalere/Batch-ICL).
@@ -25,10 +25,10 @@ python mutator_analysis.py
 ```
 ## Citation
 ```
-@article{wei2024mile,
-  title={MILE: A Mutation Testing Framework of In-Context Learning Systems},
-  author={Wei, Zeming and Zhang, Yihao and Sun, Meng},
-  journal={arXiv preprint arXiv:2409.04831},
-  year={2024}
+@InProceedings{wei2024mile,
+    author    = {Wei, Zeming and Wang, Yifei and Guo, Yiwen and Wang, Yisen},
+    title     = {MILE: A Mutation Testing Framework of In-Context Learning Systems},
+    booktitle = {SETTA},
+    year      = {2024}
 }
 ```
