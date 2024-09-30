@@ -26,8 +26,8 @@ python mutator_analysis.py
 ## Citation
 ```
 @InProceedings{wei2024mile,
-    author    = {Wei, Zeming and Wang, Yifei and Guo, Yiwen and Wang, Yisen},
     title     = {MILE: A Mutation Testing Framework of In-Context Learning Systems},
+    author    = {Wei, Zeming and Zhang, Yihao and Sun, Meng},
     booktitle = {SETTA},
     year      = {2024}
 }
